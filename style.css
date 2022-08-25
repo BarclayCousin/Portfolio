@@ -141,16 +141,17 @@ label #cancel {
 /* Typed Text & Video*/ 
 
 .text-box {
-    width: 90%;
-    font-size: 19px;
+    margin-top: 15%;
+    font-size: 17px;
     letter-spacing: 1px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    line-height: 26px;
     text-align: center;
 }
+
+
+
+
+
 
 
 .text-box h1 {
@@ -212,10 +213,12 @@ label #cancel {
     .back-video {
         width: 1800px;
 
+
     }
     .text-box h1 {
         font-size: 51px;
         line-height: 100px;
+        padding-top: 29%;
     }
 
     .text-box p {
@@ -224,3 +227,6 @@ label #cancel {
     }
     }
 
+span.typed-cursor {
+    color: #0c726d;
+}
