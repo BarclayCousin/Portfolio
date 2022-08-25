@@ -82,6 +82,7 @@ label #cancel {
     nav img {
         left: 8%;
     }
+
 }
 
 @media (max-width: 944px) {
@@ -134,34 +135,39 @@ label #cancel {
     }
 
 
+
 }
 
 /* Typed Text & Video*/ 
 
 .text-box {
-    margin-top: 15%;
+    width: 90%;
     font-size: 17px;
     letter-spacing: 1px;
-    line-height: 26px;
-    margin-left: 20%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
 
+
 .text-box h1 {
-    font-size: 75px;
+    font-size: 70px;
     line-height: 160px;
     color: white ;
-
 
 }
 
 .text-box p {
     color: white;
-    margin-left: 75px;
+
 }
 
 .text-box a {
     margin-top: 30px;
-    margin-left: 15%;
+
     display: inline-block;
     border-radius: 6px;
     border: 2px solid #0c726d;
@@ -200,4 +206,21 @@ label #cancel {
     width: 2000px;
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .back-video {
+        width: 1800px;
+
+    }
+    .text-box h1 {
+        font-size: 51px;
+        line-height: 100px;
+    }
+
+    .text-box p {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    }
 
