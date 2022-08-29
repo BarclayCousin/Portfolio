@@ -269,7 +269,7 @@ span.typed-cursor {
 }
 
 .text h1 {
-    color: #ffcc74;
+    color: #0c726d;
     font-size: 85px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -283,7 +283,7 @@ span.typed-cursor {
 }
 
 .text p {
-    color: #0c726d;
+    color: #5c5b5a;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -291,8 +291,8 @@ span.typed-cursor {
 }
 
 button {
-    background-color: #ffcc74;
-    color: black;
+    background-color: #0c726d;
+    color: rgb(255, 255, 255);
     border: 2px solid transparent;
     text-decoration: none;
     padding: 10px 30px;
@@ -305,8 +305,8 @@ button {
 button:hover {
     transform: scale(1.2);
     background-color: transparent;
-    border: 2px solid #ffcc74;
-    color: #ffcc74;
+    border: 2px solid #0c726d;
+    color: #5c5b5a;
     transition: .4s;
     cursor: pointer;
     
