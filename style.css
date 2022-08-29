@@ -152,8 +152,6 @@ label #cancel {
 
 
 
-
-
 .text-box h1 {
     font-size: 70px;
     line-height: 160px;
@@ -176,6 +174,7 @@ label #cancel {
     color: white;
     padding: 10px 30px;
     text-decoration: none;
+    animation: reverse;
 }
 
 .text-box .btn {
@@ -186,7 +185,7 @@ label #cancel {
 }
 
 .text-box span {
-    color: #ffffff;
+    color:white;
 }
 
 
