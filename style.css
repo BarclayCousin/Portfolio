@@ -311,7 +311,7 @@ button:hover {
     
 
 }
-@media screen and (min-width: 1180px) and (max-width: 1700px) {
+@media screen and (min-width: 1180px) and (max-width: 1700px) { /* Difference Between laptop screen and monitor */
     .about .content img {
         height: auto;
         width: 550px;
