@@ -311,6 +311,19 @@ button:hover {
     
 
 }
+@media screen and (min-width: 1180px) and (max-width: 1700px) {
+    .about .content img {
+        height: auto;
+        width: 550px;
+        max-width: 100%;
+        margin-left: -100px;
+        border-radius:50%;
+    
+    }
+}
+
+
+
 
 @media screen and (max-width: 1180px) {
      .about {
@@ -318,6 +331,8 @@ button:hover {
         height: auto;
         padding: 70px 0px;
      }
+
+     
 }
 
 
@@ -331,7 +346,7 @@ button:hover {
         margin-bottom: 25px;
     }
     button {
-        margin-left: 0px;
+        margin-left: 24px;
     }
 }
 
