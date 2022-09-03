@@ -166,7 +166,6 @@ label #cancel {
 
 .text-box a {
     margin-top: 30px;
-
     display: inline-block;
     border-radius: 6px;
     border: 2px solid #0c726d;
@@ -178,10 +177,20 @@ label #cancel {
 
 .text-box .btn {
     background: #0c726d;
-    color: #000;
+    color: rgb(255, 255, 255);
     margin-left: 30px;
     font-weight: 600;
 }
+
+
+.text-box .btn:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    transition: .4s;
+    cursor: pointer; 
+
+}
+
 
 .text-box span {
     color:white;
@@ -358,6 +367,7 @@ button:hover {
     min-height: 270px;
 	vertical-align: middle;
 }
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -379,7 +389,7 @@ button:hover {
     text-align: center;
 }
 .flip-main{
-	min-height: 55vh;
+	min-height: 83vh;
 	background-color: #ffffff;
 	padding: 20px 0;
 }
