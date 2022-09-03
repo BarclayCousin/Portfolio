@@ -234,7 +234,7 @@ span.typed-cursor {
 
 .about {
     width: 100%;
-    height: 85vh; /* This bit does length of page */
+    height: 88.5vh; /* This bit does length of page */
     background-color: white;
     display: flex;
     justify-content: center;
@@ -247,6 +247,7 @@ span.typed-cursor {
     max-width: 100%;
     margin-left: -300px;
     border-radius:50%;
+    border: 4px solid #0c726d;
 
 }
 
@@ -274,7 +275,7 @@ span.typed-cursor {
     text-transform: capitalize;
 }
 
-.text h5 {
+h5 {
     font-size: 25px;
     margin-bottom: 25px;
     text-transform: capitalize;
@@ -369,9 +370,13 @@ button:hover {
 .container-flip h1 {
         color: #0c726d;
         font-size: 85px;
-        margin-bottom: 90px;
+        margin-bottom: 40px;
         text-transform: capitalize;
         text-align: center;
+}
+
+.container-flip h5 {
+    text-align: center;
 }
 .flip-main{
 	min-height: 55vh;
